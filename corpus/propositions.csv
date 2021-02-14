@@ -1,0 +1,58 @@
+PropositionId,Description,Predicate,Placeholders,IsNegated
+QH2eoLsoESmyunn6t,more than half of the epoch has alpha rhythm in the occipital channel(s),EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0.5,""value"":""alpha_rhythm""}",false
+yzpKNjNG5MDkbDFyj,alpha rhythm is absent,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""alpha_rhythm""}",true
+nkx2KSiNAqPgi7Y8y,eye blinks are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""eye_blinks""}",false
+8CXs732ywrWaPmAFv,reading eye movements are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""reading_eye_movements""}",false
+JsR93LpjNw6pDfCu4,"conjugate, irregular rapid eye movements, associated with normal or high chin muscle tone, are present",EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""irregular_conjugate_rem_associated_with_normal_or_high_chin_emg_tone""}",false
+aM6FX45yzrvQs7kBa,the patient generates alpha rhythm,EVIDENCE_IS_PRESENT,"{""epoch"":""any"",""comparator"":""gt"",""threshold"":0,""value"":""alpha_rhythm""}",false
+oMELdNXmeGvY9SksF,"the alpha rhythm is extenuated and replaced by low-amplitude, mixed-frequency activity for more than half of the epoch",EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0.5,""value"":""attenuated_alpha_rhythm_replaced_by_lamf""}",false
+TNJmDvNYvkC4Kbi73,the patient does not generate alpha rhythm,EVIDENCE_IS_PRESENT,"{""epoch"":""any"",""comparator"":""gt"",""threshold"":0,""value"":""alpha_rhythm""}",true
+qrAParb8LFvRRq4za,the epoch shows onset of EEG activity of 4-7 Hz while background frequencies slow by ≥1 Hz compared to stage W,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""eeg_4_to_7_hz_with_slowing_of_background_frequencies_by_at_least_1_hz_from_those_of_wake""}",false
+jcGPBERZgsL2CZwHR,the epoch shows onset of vertex sharp waves,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""vertex_wave""}",false
+AnxYN8WARL4QriJtt,the epoch shows onset of slow eye movements,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""sem""}",false
+Li8y6Y5AyKDtFyDH9,one or more non-arousal associated K complexes are present during the first half of the epoch or the last half of the previous epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""previous_second_half_or_current_first_half"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",false
+WZdfizFjNkBrs93Ab,one or more trains of sleep spindles occur during the first half of the epoch or the last half of the previous epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""previous_second_half_or_current_first_half"",""comparator"":""gt"",""threshold"":0,""value"":""train_of_sleep_spindles""}",false
+4cYQMxFTezY5STvzT,"the epoch has low-amplitude, mixed-frequency EEG activity",EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""lamf""}",false
+Stc7y2rhijuP2ZbbJ,K complexes are absent,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""k_complex""}",true
+5Bm4FYTDc6TQodERk,sleep spindles are absent,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""sleep_spindle""}",true
+Fakob2n785TMAm94J,the previous epoch has one or more non-arousal associated K complexes,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",false
+jyuXxiti7Fpxg3WHT,one or more sleep spindles are present in the previous epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""sleep_spindle""}",false
+ookXwWE2TJwzdgM65,one or more arousals are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""arousal""}",false
+ef2MSgwLwXraWaKc3,"the epoch has a major body movement followed by slow eye movements and low-amplitude, mixed-frequency EEG",EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""major_body_movement_followed_by_lamf_and_sem""}",false
+AwvZNQByXWEqJhjAg,non-arousal associated K complexes are absent,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",true
+42AX8YPB8BkCkXBmu,alpha rhythm is present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""alpha_rhythm""}",false
+wgPbRBrdH8wjb7K5s,"the previous epoch has a major body movement followed by slow eye movements and low-amplitude, mixed-frequency EEG",EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""major_body_movement_followed_by_lamf_and_sem""}",false
+hq3bYmPdch2Shsn33,the previous epoch has no non-arousal associated K complexes,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",true
+vvixFSPX2X2HgRh6n,sleep spindles are absent in the previous epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""sleep_spindle""}",true
+ozZg95twXAeL7zBP5,≥20% of the epoch shows slow wave activity,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gte"",""threshold"":0.2,""value"":""slow_wave_activity""}",false
+dzbFzeHNbnQxpSsiF,rapid eye movements are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""rem""}",false
+iB6TndeMByy5X4BGD,the epoch has low chin EMG tone,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""low_chin_emg_tone""}",false
+WA82FAYGRBKbaJ5vC,the chin EMG tone stays low for the majority of the epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0.5,""value"":""low_chin_emg_tone""}",false
+gBWnHhxn8ARR6T82F,"the previous epoch has low-amplitude, mixed-frequency EEG activity",EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""lamf""}",false
+EAG5YD3QsArXKGQ48,the previous epoch has low chin EMG tone,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""low_chin_emg_tone""}",false
+KS4zjLrn9aaAbM8Hn,the previous epoch has rapid eye movements,EVIDENCE_IS_PRESENT,"{""epoch"":""previous"",""comparator"":""gt"",""threshold"":0,""value"":""rem""}",false
+8YnEEvitCboYhBJ6D,an increase in chin EMG tone above stage R level is observed for the epoch majority,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0.5,""value"":""high_chin_emg_tone""}",false
+wJDBaHreSnPyLxbDs,"an arousal occurs followed by low-amplitude, mixed-frequency EEG and slow eye movements",EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""arousal_followed_by_lamf_and_sem""}",false
+jkzv27WXRg6fyYZdA,one or more non-arousal associated K complexes are present in the first half of the epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""current_first_half"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",false
+corW4ue8pBNpbNsK7,rapid eye movements are absent,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""rem""}",true
+puKNqGFZdfPvJBWdX,one or more sleep spindles are present in the first half of the epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""current_first_half"",""comparator"":""gt"",""threshold"":0,""value"":""sleep_spindle""}",false
+fZEPvvJpqss6PAnjN,there is a significant drop in chin EMG to stage R level in the first half of the epoch,EVIDENCE_IS_PRESENT,"{""epoch"":""current_first_half"",""comparator"":""gt"",""threshold"":0,""value"":""distinct_drop_in_chin_emg_tone_to_level_seen_in_stage_rem""}",false
+3DEqZaKQ6wyhQpD9b,one or more non-arousal associated K complexes are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""non_arousal_k_complex""}",false
+PTsaYJbqzcTNNGG52,one or more sleep spindles are present,EVIDENCE_IS_PRESENT,"{""epoch"":""current"",""comparator"":""gt"",""threshold"":0,""value"":""sleep_spindle""}",false
+6QLL8CbdX3CfNuubR,Wake,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""field"":""value.label"",""value"":""sleep_stage_wake""}",false
+d2BYdnevBhCNdLWg7,N1,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""field"":""value.label"",""value"":""sleep_stage_n1""}",false
+XDWqs9hbyHFPdAtXv,the criteria for stage N3 are not met,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""current"",""field"":""value.label"",""value"":""sleep_stage_n3""}",true
+DAos9dkZnRCHjK3FX,N2,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""field"":""value.label"",""value"":""sleep_stage_n2""}",false
+gRSMevpDfsqZLayts,the previous or next epoch is scorable as stage W,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""previous_or_next"",""field"":""value.label"",""value"":""sleep_stage_wake""}",false
+2QxLi7bEQZsn6WL4E,the previous epoch is not scorable as stage W,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""previous"",""field"":""value.label"",""value"":""sleep_stage_wake""}",true
+c4ZZdxGwEf7rRAWE8,the next epoch is stage N1,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_n1""}",false
+QBuFufm6YHZrEm6sS,the next epoch is stage N3,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_n3""}",false
+nYSStMic8nzurC22Y,N3,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""field"":""value.label"",""value"":""sleep_stage_n3""}",false
+8eQ3XpSmWphEGEK3j,the next epoch is stage R,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_rem""}",false
+wMoa4b2y3n9C9dDPY,REM,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""field"":""value.label"",""value"":""sleep_stage_rem""}",false
+qf8dvG7R94iq7WCaP,the criteria for stage N1 are met,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""current"",""field"":""value.label"",""value"":""sleep_stage_n1""}",false
+QNWnrMXnwvPHFkBm9,the next epoch is stage N2,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_n2""}",false
+qxGJKfZysaLzEvRJm,the previous epoch is definite stage N2,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""previous"",""field"":""value.label"",""value"":""sleep_stage_definite_n2""}",false
+BGzP9mj2nfPz4WxS3,the next epoch is definite stage R,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_definite_rem""}",false
+mRxXRBD4EGPZNBMa9,the previous epoch is definite stage N2 with minimal chin EMG tone,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""previous"",""field"":""value.label"",""value"":""sleep_stage_definite_n2_with_minimal_chin_emg_tone""}",false
+myic6TmxLafYiZBjr,the next epoch is definite stage R without further drop in chin EMG tone,ANNOTATION_FIELD_SHOULD_BE_SET_TO_VALUE,"{""epoch"":""next"",""field"":""value.label"",""value"":""sleep_stage_definite_rem_without_further_drop_in_chin_emg_tone""}",false
