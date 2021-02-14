@@ -1,5 +1,7 @@
 # CrowdEEG Dataset with Expert Adjudication Discussions
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4540343.svg)](https://doi.org/10.5281/zenodo.4540343)
+
 This repository contains a dataset for a medical time series classification task acquired using **[CrowdEEG](https://crowdeeg.ca/)**. Beyond classification labels, the dataset includes structured arguments from adjudication discussions of 3 medical experts per contentious classification decision.
 
 ![The CrowdEEG adjudication interface](adjudication_ui.gif)
