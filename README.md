@@ -2,6 +2,8 @@
 
 This repository contains a dataset for a medical time series classification task acquired using **[CrowdEEG](https://crowdeeg.ca/)**. Beyond classification labels, the dataset includes structured arguments from adjudication discussions of 3 medical experts per contentious classification decision.
 
+![The CrowdEEG adjudication interface](adjudication_ui.gif)
+
 The corpus has been referenced in the following papers:
 
 * Mike Schaekermann, Graeme Beaton, Elaheh Sanoubari, Andrew Lim, Kate Larson, and Edith Law: **[Ambiguity-aware AI Assistants for Medical Data Analysis](https://dl.acm.org/doi/abs/10.1145/3313831.3376506)**. [CHI 2020](http://chi2020.acm.org/).
