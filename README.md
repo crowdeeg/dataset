@@ -1,4 +1,6 @@
-# CrowdEEG Dataset: Expert Adjudication Discussions for Medical Time Series Data
+# CrowdEEG Dataset
+
+## Expert Adjudication Discussions for Medical Time Series Data
 
 [![DOI](https://zenodo.org/badge/338701172.svg)](https://zenodo.org/badge/latestdoi/338701172)
 
